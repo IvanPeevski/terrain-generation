@@ -13,9 +13,9 @@ This project is a procedural terrain generation system developed in C++ using Op
 
 ## Screenshots
 
-![Island 1](https://github.com/IvanPeevski/terrain-generation/assets/37153196/86fbc72e-0e6d-4e5d-86ed-b0f580f64a82)
-
 ![Island 2](https://github.com/IvanPeevski/terrain-generation/assets/37153196/ae20c77a-3ee2-4dd2-8fbf-c3de5c6202e3)
+
+![Island 1](https://github.com/IvanPeevski/terrain-generation/assets/37153196/86fbc72e-0e6d-4e5d-86ed-b0f580f64a82)
 
 ![Island 3](https://github.com/IvanPeevski/terrain-generation/assets/37153196/e4b823eb-ac0a-43eb-b95d-418a74a493ef)
 
