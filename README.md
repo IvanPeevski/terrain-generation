@@ -32,8 +32,6 @@ This project is a procedural terrain generation system developed in C++ using Op
 
 1. **Clone the repository:**
 
-git clone <URL_TO_YOUR_REPOSITORY>
-
 2. **Navigate to the project directory:**
 
 cd ProceduralTerrainGenerationSystem
