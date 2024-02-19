@@ -1,0 +1,10 @@
+﻿  main.cpp
+C:\Users\Lenovo\source\repos\terrain-generation\terrain-generation\main.cpp(96,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Lenovo\source\repos\terrain-generation\terrain-generation\main.cpp(263,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Lenovo\source\repos\terrain-generation\terrain-generation\main.cpp(264,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Lenovo\source\repos\terrain-generation\terrain-generation\main.cpp(268,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Lenovo\source\repos\terrain-generation\terrain-generation\main.cpp(269,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Lenovo\source\repos\terrain-generation\terrain-generation\main.cpp(270,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Lenovo\source\repos\terrain-generation\terrain-generation\main.cpp(271,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  terrain-generation.vcxproj -> C:\Users\Lenovo\source\repos\terrain-generation\x64\Debug\terrain-generation.exe

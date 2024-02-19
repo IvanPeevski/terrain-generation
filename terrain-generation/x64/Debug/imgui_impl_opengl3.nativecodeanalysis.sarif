@@ -1,0 +1,156 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'sscanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/glfw/include/imgui/imgui_impl_opengl3_loader.h"
+                },
+                "region": {
+                  "startLine": 707,
+                  "startColumn": 13,
+                  "endLine": 707,
+                  "endColumn": 65
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "parse_version",
+                  "decoratedName": "parse_version",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'sscanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/glfw/include/imgui/imgui_impl_opengl3.cpp"
+                },
+                "region": {
+                  "startLine": 305,
+                  "startColumn": 9,
+                  "endLine": 305,
+                  "endColumn": 46
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ImGui_ImplOpenGL3_Init",
+                  "decoratedName": "?ImGui_ImplOpenGL3_Init@@YA_NPEBD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'sscanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/glfw/include/imgui/imgui_impl_opengl3.cpp"
+                },
+                "region": {
+                  "startLine": 762,
+                  "startColumn": 5,
+                  "endLine": 762,
+                  "endColumn": 51
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ImGui_ImplOpenGL3_CreateDeviceObjects",
+                  "decoratedName": "?ImGui_ImplOpenGL3_CreateDeviceObjects@@YA_NXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.39.33519.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///E:/glfw/include/imgui/imgui_impl_opengl3_loader.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "1cbbbca692740621cf8a3791b3f4c76f637269ace30097d8949fc3428d172c2d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///E:/glfw/include/imgui/imgui_impl_opengl3.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "494035ee1ac72fa3bcd1113f90a6e3c44fadaa3a6e004cfc7520dd2a41bb3e31"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/glfw/include/imgui/imgui.h"
+          },
+          "hashes": {
+            "sha-256": "64845aad90c4f7f0f9a4f44a1c55a418fdf6cc5fe9921c9a40ea7fd0e535c8b9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/glfw/include/imgui/imconfig.h"
+          },
+          "hashes": {
+            "sha-256": "a253e82c1960f8aa7594a51a8ac606a6235738c923f12d67a7742e88bf07ed63"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/glfw/include/imgui/imgui_impl_opengl3.h"
+          },
+          "hashes": {
+            "sha-256": "adef93706187beff90834a189b9f81770e1232a1cf04e0deab8b4fdf8af5344d"
+          }
+        }
+      ]
+    }
+  ]
+}
